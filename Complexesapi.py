@@ -1,4 +1,5 @@
 # Complexes
+# This file is about complexes and venues- It will fetch the data from API and store it in DB
 
 import requests
 
@@ -53,9 +54,6 @@ if response.status_code==200:
                 #query2="INSERT INTO `project1`.`venues` (`venue_id`, `venue_name`, `city_name`, `country_name`, `country_code`,`timezone`,`complex_id`) VALUES ('"+ven_id+"','"+ven_name+"','"+city_name+"','"+country_name+"','"+country_code+"','"+timezone+"','"+id+"')"
                 dbwrite(query2)
 
-
-   
-    
         
         
         
